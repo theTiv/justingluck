@@ -12,7 +12,7 @@ const Header = ({ siteTitle, menuLinks }) => (
         <Logo />
       </div>
       <nav>
-        <ul style={{ display: 'flex', flex: 1, listStyle: 'none' }}>
+        <ul className={classes.navContainer}>
           {menuLinks.map(link =>
             <li key={link.link}>
               <Link to={link.link}>{link.name}</Link>

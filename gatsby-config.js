@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Justin Gluck, Front End Software Engineer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `I'm a contract Front End developer based in London since 2011.`,
     author: `@gatsbyjs`,
     menuLinks: [
       {
