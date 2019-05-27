@@ -1,32 +1,25 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Link } from 'gatsby'
 
 import Logo from "../Logo/Logo"
 import classes from "./Header.module.scss"
 
-const Header = ({ siteTitle }) => (
-  <header
-    className={classes.Header}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          className={classes.Heading}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Logo />
-    </div>
+const Header = ({ siteTitle, menuLinks }) => (
+  <header className={classes.header}>
+    <div className={classes.container}>
+      <div className={classes.logoWrapper}>
+        <Logo />
+      </div>
+      <nav>
+        <ul style={{ display: 'flex', flex: 1, listStyle: 'none' }}>
+          {menuLinks.map(link =>
+            <li key={link.link}>
+              <Link to={link.link}>{link.name}</Link>
+            </li>
+            )}
+        </ul>
+      </nav>
     </div>
   </header>
 )
