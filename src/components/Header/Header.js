@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import Logo from "../Logo/Logo"
 import classes from "./Header.module.scss"
 
 const Header = ({ siteTitle }) => (
@@ -23,6 +24,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Logo />
+    </div>
     </div>
   </header>
 )
