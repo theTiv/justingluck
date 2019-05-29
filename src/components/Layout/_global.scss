@@ -6,10 +6,15 @@
 
 .Global__image-wrapper {
 	margin: auto;
-	width: 300px;
+	padding-bottom: 1rem;
+	width: 900px;
 }
 
 .Global__page-content {
 	color: $dark-grey;
+	padding-top: 3rem;
 	text-align: center;
+	h1 {
+		font-size: 1.65rem;
+	}
 }

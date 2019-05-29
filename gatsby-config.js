@@ -13,7 +13,7 @@ module.exports = {
         "link": "/page-2"
       },
       {
-        "name": "clients",
+        "name": "experience",
         "link": "/page-2"
       },
       {
