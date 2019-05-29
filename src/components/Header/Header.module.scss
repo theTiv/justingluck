@@ -37,6 +37,9 @@
 .nav-link {
 	text-decoration: none;
     color: #afafaf;
-    padding: 10px;
+	padding: 10px;
+	&:hover {
+		color: $tundora;
+	}
 }
 

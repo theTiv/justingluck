@@ -12,7 +12,8 @@ const IndexPage = () => (
       <div className="Global__image-wrapper">
         <Image />
       </div>
-      <p>Welcome to my portfolio website, I'm a contract Front End Developer specializing in React and based in London.</p>
+      <p>Welcome to my portfolio website</p> 
+      <p>I'm a contract JavaScript/UI Developer specializing in React and based in London.</p>
     </div>
   </Layout>
 )

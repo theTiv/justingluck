@@ -11,10 +11,21 @@
 }
 
 .Global__page-content {
-	color: $dark-grey;
+	color: $tundora;
 	padding-top: 3rem;
 	text-align: center;
+	h1, p {
+		font-family: linotype-didot, serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
 	h1 {
 		font-size: 1.65rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+		margin-bottom: 0.5rem;
 	}
 }
