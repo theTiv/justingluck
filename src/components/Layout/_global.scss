@@ -10,6 +10,10 @@
 	width: 900px;
 }
 
+.react-slideshow-container .nav {
+	display: none !important;
+}
+
 .Global__page-content {
 	color: $tundora;
 	padding-top: 3rem;
