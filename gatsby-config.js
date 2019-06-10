@@ -10,19 +10,19 @@ module.exports = {
       },
       {
         "name": "about",
-        "link": "/page-2"
+        "link": "/about"
       },
       {
         "name": "experience",
-        "link": "/page-2"
+        "link": "/experience"
       },
       {
         "name": "portfolio",
-        "link": "/page-2"
+        "link": "/portfolio"
       },
       {
         "name": "contact",
-        "link": "/page-2"
+        "link": "/contact"
       }
     ]
   },

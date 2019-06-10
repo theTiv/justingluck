@@ -7,13 +7,13 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="Global__page-content">
+    <div className="global__page">
       <h1>Introducing { 'Justin Glück' }, Front End Software Engineer</h1>
-      <div className="Global__image-wrapper">
+      <div className="global__image--central">
         <FadeSlideshow />
       </div>
-      <p>Welcome to my portfolio website</p> 
-      <p>I'm a contract JavaScript/UI Developer specializing in React and based in London.</p>
+      <p className="global__page__text">Welcome to my portfolio website</p> 
+      <p className="global__page__text">I'm a contract JavaScript/UI Developer specializing in React and based in London.</p>
     </div>
   </Layout>
 )

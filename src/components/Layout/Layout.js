@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-        <div className="Global__content-wrapper">
+        <div className="global__content-wrapper">
           <main>{children}</main>
         </div>
         <Footer />

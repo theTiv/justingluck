@@ -1,10 +1,43 @@
-.Global__content-wrapper {
+.global__content-wrapper {
 	margin: 0px auto;
     max-width: 1280px;
     padding: 0px 1.0875rem 1.45rem;
 }
 
-.Global__image-wrapper {
+.global__content {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+
+.global__image {
+
+}
+
+.global__text {
+	font-family: canada-type-gibson, sans-serif;	
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+
+.global__image--left {
+	order: 0;
+    flex: 1;
+    align-self: auto;
+}
+
+.global__text--right {
+    order: 0;
+    flex: 1;
+	align-self: auto;
+	margin-top: 4rem;
+}
+
+.global__image--central {
 	margin: auto;
 	padding-bottom: 1rem;
 	width: 900px;
@@ -14,11 +47,11 @@
 	display: none !important;
 }
 
-.Global__page-content {
+.global__page {
 	color: $tundora;
 	padding-top: 3rem;
 	text-align: center;
-	h1, p {
+	h1, h2, .global__page__text {
 		font-family: linotype-didot, serif;
 		font-weight: 400;
 		font-style: normal;
@@ -26,10 +59,21 @@
 
 	h1 {
 		font-size: 1.65rem;
+		line-height: 2rem;
+		margin-bottom: 0;
 	}
 
-	p {
+	h2 {
+		font-size: 1.35rem;
+		line-height: 2rem;
+	}
+
+	.global__page__text {
 		font-size: 1.25rem;
 		margin-bottom: 0.5rem;
 	}
+}
+
+.global__nav--active {
+	color: $tundora;
 }

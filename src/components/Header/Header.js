@@ -15,7 +15,7 @@ const Header = ({ menuLinks }) => (
         <ul>
           {menuLinks.map(link =>
             <li key={link.link}>
-              <Link className={classes.navLink} to={link.link}>{link.name}</Link>
+              <Link className={classes.navLink} to={link.link} activeClassName="global__nav--active">{link.name}</Link>
             </li>
             )}
         </ul>
